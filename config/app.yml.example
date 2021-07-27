@@ -1,0 +1,53 @@
+server:
+  ip: 127.0.0.1 CHANGEME
+
+master:
+  key: xprv9s2 CHANGEME
+
+telegram_messages:
+  deposit: "To deposit %s (%s), send to:\n%s\n\n"
+  backup_privkey: "Backup your private key with: /privatekey %s\nDo not treat this tipping bot as your wallet, this bot is highly experimental."
+  privkey_in_pm: "You received your private key in a private message. Never share your private key!\n"
+  privkey: "Importing can be done with Electrum, coinomi or a core wallet.\nDo your own research: https://duckduckgo.com/?q=bitcoin+private+keys&t=h_&ia=web \n\nPrivate key: %s"
+  tipped: "Successfully tipped %s %s: %s"
+  withdrawal: "Successful withdraw: %s"
+  balance: "Balance: %s %s ($%s)\n"
+  unconfirmed_balance: "Unconfirmed Balance: %s ($%s)"
+  user_stats: "%d users have introduced themselves to me !\nTipping statistics:\n"
+  coin_stats: "%s: %s %s ($%s)\n"
+
+telegram_error_messages:
+  altcoin_not_supported: "This altcoin (%s) is not supported"
+  deposit: "I don't understand that. /deposit <coin symbol>"
+  privkey: "I don't understand that. /privatekey <coin symbol>"
+  tipping: "I don't understand that. /tip <username> <amount> <coin symbol>"
+  username: "I don't understand that. %s does not seem to be a telegram username !"
+  withdraw: "I don't understand that. /withdraw <address> <coin symbol>"
+  balance: "I don't understand that. /balance <coin symbol>"
+  something: "Something seems wrong: %s!"
+
+telegram:
+  token: 656155053:CHANGEME
+  token2: 521177781:CHANGEME
+
+twitter:
+  username: Viacoin
+  consumer_key: CHANGE_ME
+  consumer_secret: CHANGE_ME
+  access_token: CHANGE_ME
+  access_token_secret: CHANGE_ME
+
+shill:
+  binance: "https://www.binance.com/?ref=17605639"
+  bitmex: "https://www.bitmex.com/register/vhT2qm"
+
+shill_message:
+  binance: "Buy %s on https://www.binance.com/?ref=17605639"
+
+about:
+  info: "I'm a bot for tipping cryptocurrencies.\n"
+  author: "Written by Romano (Viacoin lead dev) twitter.com/RNR_0 on twitter\n\n"
+  donate: "If you would like to support, feel free to donate. Funds will be used to cover server cost anyways:\n"
+  btc_address: "3GigyGQfTi6qo3F9L3SYmFM6s4WYKaV67V"
+  coins: "\n\nCurrent supported coins are Bitcoin, Viacoin, Litecoin and Dash\n\n"
+  warning: "This bot is not your wallet. This bot is highly experimental and may lead to loss of funds. The author takes no responsibility "
